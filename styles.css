@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/* SEMPRE COMEÇAR COM ESSE PADRÃO ( * ) */
+
+body {
+    background: #09090b; /* cor de fundo */
+    color: #e4e4e7;  /*cor das letras */
+    padding: 60px;
+}
+
+h1 {
+    font-size: 40px; /* Tamnho da fonte */
+    color: #fafafa;
+    font-weight: bold; /* Grossura da fonte * /* bold - Negrito */
+    
+}
+
+span{
+    color: #00e2f7;
+}
+
+p {
+    color: #717171;
+    margin: 10px;
+}
+ /* resize - redimensionar */
+textarea {
+    resize: none;
+    
+}
