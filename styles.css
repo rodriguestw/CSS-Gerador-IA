@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family: "Inter", sans-serif;
 }
 /* SEMPRE COMEÇAR COM ESSE PADRÃO ( * ) */
 
@@ -26,8 +27,28 @@ p {
     color: #717171;
     margin: 10px;
 }
- /* resize - redimensionar */
+
+ 
 textarea {
-    resize: none;
-    
+    resize: none;  /* resize - redimensionar */
+    width: 100%;  /* width - largura */
+    padding: 16px; /* padding - preenchimento */
+    border-radius: 10px; /* border-radius - borda arredondada */
+    border: 1px solid #27272a; /* border - borda */
+    background: #141419; /* background - cor de fundo */
+    color: #fafafa;
+    outline: none; /* outline - contorno */
+}
+
+button {
+    width: 100%;
+    background: #00e2f7;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+    margin-top: 10px; /*top - cime*/ /*bottom - baixo*/ /*left - esquerda*/ /*right - direita*/
+
 }
