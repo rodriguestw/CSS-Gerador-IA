@@ -35,7 +35,7 @@ p {
 textarea {
     resize: none;  /* resize - redimensionar */
     width: 100%; /* width - largura */
-    max-width: 640px;
+    max-width: 640px; /* max-width - largura máxima */
     padding: 16px; /* padding - preenchimento */
     border-radius: 10px; /* border-radius - borda arredondada */
     border: 1px solid #27272a; /* border - borda */
@@ -46,15 +46,15 @@ textarea {
 }
 
 button {
-    width: 100%;
-    max-width: 640px;
-    background: #00e2f7;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-    padding: 14px;
+    width: 100%; /* width - largura */
+    max-width: 640px; /* max-width - largura máxima */
+    background: linear-gradient(to right, #00e2f7, #00ffe1);; /* background - cor de fundo com degradê */
+    font-size: 16px; /* font-size - tamanho da fonte */
+    font-weight: bold; /* font-weight - grossura da fonte */
+    border-radius: 10px; /* border-radius - borda arredondada */
+    border: none; /* border - borda */
+    padding: 14px; /* padding - preenchimento */
     cursor: pointer;
     margin-top: 10px; /*top - cime*/ /*bottom - baixo*/ /*left - esquerda*/ /*right - direita*/
-
 }
+
