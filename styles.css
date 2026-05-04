@@ -58,3 +58,45 @@ button {
     margin-top: 10px; /*top - cime*/ /*bottom - baixo*/ /*left - esquerda*/ /*right - direita*/
 }
 
+.resultado {
+    width: 100%; /* width - largura */
+    max-width: 640px; /* max-width - largura máxima */
+    margin-top: 20px; /* margin-top - margem superior */
+    padding: 20px; /* padding - preenchimento */
+    background: #141419; /* background - cor de fundo */
+    border-radius: 10px; /* border-radius - borda arredondada */
+    border: 1px solid #27272a; /* border - borda */
+}
+
+.container-resultado {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.preview {
+    background: #141419;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #27272a;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.codigo {
+    background: #0f0f12;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #27272a;
+}
+
+pre {
+    background: #000;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin-bottom: 15px;
+}
