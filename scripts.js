@@ -56,7 +56,7 @@ async function gerarCodigo() {
                     ---HTML---
                     (código HTML aqui)
 
-                    NÃO escreva explicações.`},
+                    NÃO escreva explicações. NÃO passe do limite de borda no meio do site`},
                 {
                     role: "user",
                     content: textoUsuario
